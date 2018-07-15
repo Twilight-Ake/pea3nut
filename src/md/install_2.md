@@ -11,7 +11,7 @@
 
 点击上面链接之一后会提示类似于如下窗口：
 
-![/static/images/install_2-pxer-alert.png]
+![](/static/images/install_2-pxer-alert.png)
 
 选择“安装”，Pxer就已经安装到你的浏览器中了。
 
