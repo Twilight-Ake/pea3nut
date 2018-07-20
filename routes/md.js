@@ -14,7 +14,7 @@ router.get('/:mdFile',async function(req, res, next) {
     var hasMdFile =await Fs.existsSync(mdFilePath);
     if(!hasMdFile){
         res.status(404);
-        res.render('404-not-found',{
+        res.render('404',{
             title:'未找到该文档',
             message:'你可能是被错误的链接导航与此，请将问题报告给626954412#qq.com',
         });
