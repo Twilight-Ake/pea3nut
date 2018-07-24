@@ -8,7 +8,7 @@ const Join =require('path').join;
 const Marked =require('marked');
 
 
-router.get('/:mdFile',async function(req, res, next) {
+router.get('/:mdFile([\\w_]+)',async function(req, res, next) {
     var mdFilePath =Join(__dirname,'../src/md/',req.params.mdFile+'.md');
     console.log(mdFilePath);
     var hasMdFile =await Fs.existsSync(mdFilePath);
