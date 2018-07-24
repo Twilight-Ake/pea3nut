@@ -1,7 +1,5 @@
-@import "~public/bootstrap/bootstrap-4.0.0-alpha.6/bootstrap.scss";
-@import "~public/scss/class.scss";
-@import "~public/scss/variables.scss";
-@import '~public/scss/text-body.scss';
+@import "~bootstrap/scss/bootstrap.scss";
+@import '~pea-styles/scss/text-body.scss';
 $pixiv-logo-color:#0074aa;
 #main{
     .navbar{
@@ -128,13 +126,13 @@ $pixiv-logo-color:#0074aa;
         }
     }
     &.page-md{
-        background-color: $bgColor;
+        background-color: #e8e8e8;
         .text-body-container{
             margin-top:30px;
             max-width: 960px;
             .text-body{
                 font-size:16px;
-                border:1px solid $textColor-dim;
+                border:1px solid #8b8c8d;
                 padding:30px 30px 90px;
                 margin-bottom: 50px;
                 min-height:100vh;
@@ -148,6 +146,16 @@ $pixiv-logo-color:#0074aa;
                     border:none;
                 }
             }
+        }
+    }
+    .pxer-foot{
+        text-align: center;
+        padding-top:1.5em;
+        padding-bottom:0.7em;
+        background-color: #fff;
+        font-size:12px;
+        p{
+            margin:0;
         }
     }
 };
