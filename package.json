@@ -3,13 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=dev supervisor -w bin,routes,app.js,webpack.config.js ./bin/www",
-    "pro": "cross-env NODE_ENV=production PORT=3001 pm2 start ./bin/www"
+    "dev": "cross-env NODE_ENV=development PORT=3001 supervisor -w bin,routes,app.js,webpack.config.js ./bin/www",
+    "server": "cross-env NODE_ENV=production PORT=80 node./bin/www"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
+    "cross-env": "^5.2.1",
     "debug": "~2.6.3",
     "ejs": "~2.5.6",
     "express": "~4.15.2",
@@ -25,11 +26,12 @@
     "babel-preset-stage-2": "^6.22.0",
     "bootstrap": "^4.0.0-alpha.6",
     "css-loader": "^0.25.0",
-    "node-sass": "4.5.0",
+    "node-sass": "^4.12.0",
     "node-sass-loader": "^0.1.7",
     "resolve-url-loader": "^1.6.0",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
+    "supervisor": "^0.12.0",
     "url-loader": "^0.5.7",
     "webpack": "^2.3.2",
     "webpack-dev-middleware": "^1.10.1",

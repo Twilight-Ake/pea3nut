@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({extended :false}));
 app.use(cookieParser());
 
 // 热加载
-if(process.env.NODE_ENV ==='dev')~function(){
+if(process.env.NODE_ENV ==='development')~function(){
     var webpack = require('webpack');
     var webpackConfig = require('./webpack.config');
     var compiler = webpack(webpackConfig);
