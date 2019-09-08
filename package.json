@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development PORT=3001 supervisor -w bin,routes,app.js,webpack.config.js ./bin/www",
-    "server": "cross-env NODE_ENV=production PORT=80 node./bin/www"
+    "build": "webpack",
+    "server": "cross-env NODE_ENV=production PORT=80 node ./bin/www"
   },
   "dependencies": {
     "bluebird": "^3.5.0",

@@ -1,5 +1,6 @@
-# pxer-homepage
-Pxer's homepage
+# pxer-homepage <img src="https://api.travis-ci.org/pea3nut/pxer-homepage.svg?branch=master" />
+
+[Pxer's homepage](http://pxer.pea3nut.org)
 
 ## 如何增加一个文档
 
