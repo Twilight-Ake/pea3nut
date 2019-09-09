@@ -4,8 +4,8 @@
 
 安装完毕后，用“安装完扩展了的浏览器”打开本篇教程：
 
-- 点击[安装Pxer开发版](http://pxer-app.pea3nut.org/pxer-dev.user.js)（推荐，更快、功能更新）
-- 点击[安装Pxer稳定版](http://pxer-app.pea3nut.org/pxer-master.user.js)（兼容性更好）
+- 点击[安装Pxer开发版](https://pxer-app.pea3nut.org/pxer-dev.user.js)（推荐，更快、功能更新）
+- 点击[安装Pxer稳定版](https://pxer-app.pea3nut.org/pxer-master.user.js)（兼容性更好）
 
 > 开发版或稳定版安装一个即可，推荐安装开发版
 
