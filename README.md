@@ -1,3 +1,7 @@
+See new homepage source in https://github.com/pea3nut/pxer-homepage-2
+
+<--
+
 # pxer-homepage <img src="https://api.travis-ci.org/pea3nut/pxer-homepage.svg?branch=master" />
 
 [Pxer's homepage](http://pxer.pea3nut.org)
@@ -12,3 +16,4 @@
 1. 在 `src/md/_other-link.md` 增加链接（除非你的文档非常不通用，比如某个特定情况的疑难解答，否则建议都在这里加入文档链接）
 1. 在导航栏增加链接
 
+-->
