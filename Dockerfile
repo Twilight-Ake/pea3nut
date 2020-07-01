@@ -1,5 +1,5 @@
 FROM node
-MAINTAINER pea3nut "626954412@qq.com"
+MAINTAINER pea3nut "1484227811@qq.com"
 
 RUN mkdir /pxer-homepage
 COPY . /pxer-homepage/
